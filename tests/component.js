@@ -10,6 +10,7 @@ const Component = props => {
     return (
         <div>
             <h1>react</h1>
+            <p>🔥</p>
         </div>
     )
 }

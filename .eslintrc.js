@@ -11,6 +11,7 @@ module.exports = {
         "plugin:jsx-a11y/recommended",
         "./rules/react.js",
         "./rules/react-hooks.js",
+        "./rules/jsx-a11y.js",
     ],
     overrides: [],
     parserOptions: {
