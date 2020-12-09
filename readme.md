@@ -1,4 +1,4 @@
-# 💎 eslint-config-bradgarropy
+# 💎 eslint-config-react
 
 <a href="https://www.npmjs.com/package/@bradgarropy/eslint-config-react">
     <img alt="npm" src="https://img.shields.io/npm/v/@bradgarropy/eslint-config-react.svg?color=FB3B49&style=flat-square">
