@@ -6,7 +6,6 @@ module.exports = {
         node: true,
     },
     extends: [
-        "@bradgarropy/eslint-config",
         "plugin:react/recommended",
         "plugin:jsx-a11y/recommended",
         "./rules/react.js",
