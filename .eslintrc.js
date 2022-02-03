@@ -20,7 +20,7 @@ module.exports = {
         sourceType: "module",
     },
     plugins: ["jsx-a11y", "react", "react-hooks"],
-    parser: "babel-eslint",
+    parser: "@babel/eslint-parser",
     rules: {},
     settings: {
         react: {
