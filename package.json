@@ -1,13 +1,14 @@
 {
     "name": "@bradgarropy/eslint-config-react",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "⚛️ react eslint configuration",
     "keywords": [
         "eslint",
         "eslint-config",
         "react",
         "a11y",
-        "accessibility"
+        "accessibility",
+        "hacktoberfest"
     ],
     "homepage": "https://github.com/bradgarropy/eslint-config-react",
     "bugs": {
@@ -32,7 +33,7 @@
         "eslint-plugin-jsx-a11y": "^6.4.1",
         "eslint-plugin-react": "^7.21.5",
         "eslint-plugin-react-hooks": "^4.2.0",
-        "react": "^17.0.1"
+        "react": "^18.2.0"
     },
     "devDependencies": {
         "@babel/eslint-parser": "^7.17.0",
@@ -40,6 +41,6 @@
         "eslint-plugin-jsx-a11y": "^6.4.1",
         "eslint-plugin-react": "^7.21.5",
         "eslint-plugin-react-hooks": "^4.2.0",
-        "react": "^17.0.1"
+        "react": "^18.2.0"
     }
 }
