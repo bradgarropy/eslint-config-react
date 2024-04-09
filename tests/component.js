@@ -5,7 +5,7 @@ const Component = props => {
 
     useEffect(() => {
         setCount(count + 1)
-    }, [])
+    }, [count])
 
     return (
         <div>

@@ -14,9 +14,15 @@ module.exports = {
     ],
     overrides: [],
     parserOptions: {
+        babelOptions: {
+            parserOpts: {
+                plugins: ["jsx"],
+            },
+        },
         ecmaFeatures: {
             jsx: true,
         },
+        requireConfigFile: false,
         sourceType: "module",
     },
     plugins: ["jsx-a11y", "react", "react-hooks"],
