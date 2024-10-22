@@ -2,7 +2,7 @@ import globals from "globals"
 import reactHooks from "eslint-plugin-react-hooks"
 import react from "eslint-plugin-react"
 import jsxA11y from "eslint-plugin-jsx-a11y"
-import typescriptParser from "@typescript-eslint/parser"
+import tseslint from "typescript-eslint"
 
 const config = [
     {
@@ -13,11 +13,12 @@ const config = [
                 ...globals.jest,
                 ...globals.es2021,
             },
-            parser: typescriptParser,
+            parser: tseslint.parser,
             parserOptions: {
                 ecmaFeatures: {
                     jsx: true,
                 },
+                project: "./tsconfig.json",
                 requireConfigFile: false,
             },
             sourceType: "module",
@@ -52,4 +53,5 @@ const config = [
         },
     },
 ]
+
 export default config
