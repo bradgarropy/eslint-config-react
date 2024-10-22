@@ -14,22 +14,22 @@ _My personal [eslint][1] configuration for [react][react]._
 
 This package is hosted on [npm][2].
 
-Install the configuration and it's peer dependencies as a development dependency.
+Install the configuration as a development dependency.
 
+```zsh
+npm install --dev @bradgarropy/eslint-config-react
 ```
-npx install-peerdeps --dev @bradgarropy/eslint-config-react
-```
-
-> This installs peer dependencies automatically using [npx][3] and [install-peerdeps][4] so you don't have to!
 
 ## 🥑 Usage
 
-Create an `.eslintrc` file in the root of your project and tell it to extend the configuration.
+Create an `eslint.config.js` file in the root of your project. Then import the configuration and add it to the list of configuration objects.
 
-```
-{
-    extends: "@bradgarropy/eslint-config-react"
-}
+```javascript
+import bgReactConfig from "@bradgarropy/eslint-config-react"
+
+const config = [...bgReactConfig]
+
+export default config
 ```
 
 > You can add more ESLint configuration options in this file if you want.
