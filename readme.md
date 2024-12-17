@@ -1,5 +1,9 @@
 # ⚛️ eslint-config-react
 
+### _This package is deprecated. Please use [@bradgarropy/eslint-config][eslint-config] instead._
+
+---
+
 <a href="https://www.npmjs.com/package/@bradgarropy/eslint-config-react">
     <img alt="npm" src="https://img.shields.io/npm/v/@bradgarropy/eslint-config-react.svg?color=FB3B49&style=flat-square">
 </a>
@@ -51,3 +55,4 @@ And if all else fails, you can ask me directly on [Twitter][7] or my [AMA][8].
 [7]: https://twitter.com/bradgarropy
 [8]: https://github.com/bradgarropy/ama
 [react]: https://reactjs.org
+[eslint-config]: https://npmjs.com/package/@bradgarropy/eslint-config
